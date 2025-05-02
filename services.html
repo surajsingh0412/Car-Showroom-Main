@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- talwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawsome code  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+   <!-- aos cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="navbar">
+        <nav>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()">
+              <a href=""
+                ><i class="fa-solid fa-xmark" style="margin-top: 20px"></i
+              ></a>
+            </li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./Services.html">Servics</a></li>
+            <li><a href="./Products.html">Product</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+
+          </ul>
+
+          <ul class="nav-items shadow-2xl">
+            <li><img src="./images/logo image.jpg"class="h-16 w-32 rounded-full" alt="" /></li>
+            <li class="hideOnMobile"><a href="./index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="./about.html">About</a></li>
+            <li class="hideOnMobile"><a href="./Services.html">Services</a></li>
+            <li class="hideOnMobile"><a href="./Products.html">Product</a></li>
+            <li class="hideOnMobile"><a href="./contact.html">Contact</a></li>
+            <li class="menu-button" onclick="showSisebar()">
+              <a href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    </div>
+
+    <div class=" hero_text bounce  text-red-600 p-2 text-4xl font-bold" >
+     Our Services
+   </div>
+
+   <div class="animated-icon ">
+        <a class="a1 bounce" href=""><i class="fa-solid fa-phone "></i></a>
+        <a class="a2 bounce" href=""> <i class="fa-brands fa-whatsapp "></i></a>
+        <a class="a3 bounce" href=""><i class="fa-solid fa-envelope "></i></a>   
+   </div>
+
+    <section>
+      <div class="m-5">
+        <h2 class="text-4xl font-bold  text-center">Services</h2>
+      </div>
+      <div class="flex justify-evenly items-center flex-wrap" data-aos="flip-left">
+        <div
+          class="card service-card w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;"
+        >
+          <!-- <h2  class="text-4xl text-center font-bold pt-5">Our Services</h2> -->
+          <img  class="pt-8 bounce"  src="https://media.istockphoto.com/id/477042452/photo/3d-man-with-our-Services-sign-board.jpg?s=612x612&w=0&k=20&c=1jZJvr0-NqHas7715eO6U3QRG714dEleBvJ_tZeouYM=" alt="">
+            
+          <p class="text-center p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos commodi deserunt 
+            nobis fuga animi debitis tenetur, minus recusandae adipisci incidunt officiis.</p>
+          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+          <dotlottie-player src="https://lottie.host/6e5c76f9-9af4-485e-a7ed-f529a4f10457/76WxcmSYpL.json" background="transparent" speed="2" style="width: 100px; height: 100px; margin-left: 100px; cursor: pointer;" loop autoplay></dotlottie-player>
+      
+        </div>
+        <div
+          class="card  w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="flip-right"
+        >
+        <img
+        src="https://miro.medium.com/v2/resize:fit:4320/1*JktzC9GrA_l4yz0cCy8a5Q.jpeg"
+        alt=""
+        srcset=""
+        class="h-48 rounded w-full"
+      />
+      <h2  class="text-2xl text-center font-bold pt-2">REPAIRING</h2>
+      <p class="text-center p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos commodi deserunt 
+        nobis fuga animi debitis tenetur, minus recusandae adipisci incidunt officiis maiores ut 
+        quisquam at qui saepe reiciendis nam aut omnis illum laudantium
+         eaque repudiandae voluptatem. Vitae, libero ab?</p>
+         <button class="p-2 bg-sky-500 rounded-full ml-28 m-2"><a href="#"> Read more</a></button>
+      </div>
+        <div
+          class="card w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="flip-left"
+        >
+        <img
+        src="https://t3.ftcdn.net/jpg/06/88/11/10/360_F_688111011_0XuX4z5DgCgLnJ8wjhIDoVlh6YXRCKC8.jpg"
+        alt=""
+        srcset=""
+        class="h-48 rounded w-full"
+      />
+      <h2  class="text-2xl text-center font-bold pt-2">DANTING PAINTING</h2>
+      <p class="text-center p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos commodi deserunt 
+        nobis fuga animi debitis tenetur, minus recusandae adipisci incidunt officiis maiores ut 
+        quisquam at qui saepe reiciendis nam aut omnis illum laudantium
+         eaque repudiandae voluptatem. Vitae, libero ab?</p>
+         <button class="p-2 bg-sky-500 rounded-full ml-28 m-2"><a href="#"> Read more</a></button>
+      </div>
+        <div
+          class="card w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="flip-right"
+        >
+        <img
+        src="https://img.freepik.com/free-photo/man-washing-his-car-garage_1157-26046.jpg"
+        alt=""
+        srcset=""
+        class="h-48 rounded w-full"
+      />
+      <h2  class="text-2xl text-center font-bold pt-2">WASHING</h2>
+      <p class="text-center p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos commodi deserunt 
+        nobis fuga animi debitis tenetur, minus recusandae adipisci incidunt officiis maiores ut 
+        quisquam at qui saepe reiciendis nam aut omnis illum laudantium
+         eaque repudiandae voluptatem. Vitae, libero ab?</p>
+         <button class="p-2 bg-sky-500 rounded-full ml-28 m-2"><a href="#"> Read more</a></button>
+      </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <div class="flex justify-evenly items-center flex-wrap mt-7">
+
+        <div
+        class="card  w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="flip-left"
+      >
+      <img
+      src="https://img.freepik.com/premium-photo/car-money-buy-insurance-credit-rent-concept_488220-10373.jpg"
+      alt=""
+      srcset=""
+      class="h-48 rounded w-full"
+    />
+    <h2  class="text-2xl text-center font-bold pt-2"> FINANCING AND INSURANCE</h2>
+    <p class="text-center p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos commodi deserunt 
+      nobis fuga animi debitis tenetur, minus recusandae adipisci incidunt officiis maiores ut 
+      quisquam at qui saepe reiciendis nam aut omnis illum laudantium
+       eaque repudiandae </p>
+       <button class="p-2 bg-sky-500 rounded-full ml-28 m-2"><a href="#"> Read more</a></button>
+    </div>
+      
+        <div
+          class="card  w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="flip-right"
+        >
+        <img
+        src="https://img.freepik.com/premium-photo/highquality-car-detailing-Services-professional-car-detailing-focusing-polishing-appearance-enhancement-concept_926058-4647.jpg"
+        alt=""
+        srcset=""
+        class="h-48 rounded w-full"
+      />
+      <h2  class="text-2xl text-center font-bold pt-2">DETAILING AND APPERANCE</h2>
+      <p class="text-center p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos commodi deserunt 
+        nobis fuga animi debitis tenetur, minus recusandae adipisci incidunt officiis maiores ut 
+        quisquam at qui saepe reiciendis nam aut omnis illum laudantium
+         eaque</p>
+         <button class="p-2 bg-sky-500 rounded-full ml-28 m-2"><a href="#"> Read more</a></button>
+      </div>
+        <div
+          class="card w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="flip-left"
+        >
+        <img
+        src="https://www.shutterstock.com/image-photo/car-purchase-rental-positive-young-600nw-2153842705.jpg"
+        alt=""
+        srcset=""
+        class="h-48 rounded w-full"
+      />
+      <h2  class="text-2xl text-center font-bold pt-2">CUSTOMER ASSISTANCE AND SUPPORT</h2>
+      <p class="text-center p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos commodi deserunt 
+        nobis fuga animi debitis tenetur, minus recusandae adipisci incidunt officiis maiores ut 
+        quisquam at qui saepe reiciendis nam aut omnis illum laudantium
+         eaque repudiandae </p>
+         <button class="p-2 bg-sky-500 rounded-full ml-28 m-2"><a href="#"> Read more</a></button>
+      </div>
+        <div
+          class="card w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="flip-right"
+        >
+        <img
+        src="https://teksun.com/wp-content/uploads/2021/08/IoT-Solutions-Connectivity-revolution-in-the-Automotive-Sector-Primary.jpg"
+        alt=""
+        srcset=""
+        class="h-48 rounded w-full"
+      />
+      <h2  class="text-2xl text-center font-bold pt-2">TECHNOLOGY AND CONNECTIVITY Services</h2>
+      <p class="text-center p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos commodi deserunt 
+        nobis fuga animi debitis tenetur, minus recusandae adipisci incidunt officiis maiores ut 
+        quisquam at qui saepe reiciendis nam aut omnis illum laudantium
+         eaque repudiandae</p>
+         <button class="p-2 bg-sky-500 rounded-full ml-28 m-2"><a href="#"> Read more</a></button>
+      </div>
+      </div>
+    </section>
+  
+
+
+    
+
+    <footer class="bg-slate-400 dark:bg-gray-900 mt-12">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+          <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+                <a href="./index.html" class="flex items-center">
+                    <img src="./images/logo image.jpg" class="h-16 w-24 me-3" alt="" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"> Singh Car Showroom</span>
+                </a>
+            </div>
+            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div>
+                    <h2 class="mb-6 text-md font-bold text-gray-900 uppercase dark:text-white">Links</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Products</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline ">+91 8630382804</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">surajsingh7k@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-xl text-black text-center sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:underline"></a>All Rights Reserved, Developed By <span class="font-bold">Suraj Singh</span> 
+            </span>
+            <div class="flex mt-4 sm:justify-center sm:mt-0 justify-center">
+                <a href="#" class="text-red-700 hover:text-gray-900 dark:hover:text-white text-4xl">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl">
+                    
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl">
+                   
+                  <i class="fa-brands fa-instagram"></i>
+                </a> 
+                <a href="#" class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl">
+                   
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                
+            </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+   <script src="main.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+   AOS.init({
+      Duration: 1000,
+      offset: 200,
+      delay: 100,
+    });
+</script>
+
+  </body>
+</html>

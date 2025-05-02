@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- talwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawsome code  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    
+    <!-- aos cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="navbar">
+        <nav>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()">
+              <a href=""
+                ><i class="fa-solid fa-xmark" style="margin-top: 20px"></i
+              ></a>
+            </li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./Services.html">Servics</a></li>
+            <li><a href="./Products.html">Product</a></li>
+
+            <li><a href="./contact.html">contact</a></li>
+          </ul>
+
+          <ul class="nav-items shadow-2xl">
+            <li>
+              <img src="./images/logo image.jpg" class="h-16 w-32 rounded-full" alt="" />
+            </li>
+            <li class="hideOnMobile"><a href="./index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="./about.html">About</a></li>
+            <li class="hideOnMobile"><a href="./Services.html">Services</a></li>
+            <li class="hideOnMobile"><a href="./Products.html">Product</a></li>
+            <li class="hideOnMobile"><a href="./contact.html">Contact</a></li>
+            <li class="menu-button" onclick="showSisebar()">
+              <a href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <div class="hero_text bounce text-red-600 p-2 text-4xl font-bold">
+    WELCOME
+    </div>
+
+    <div class="animated-icon ">
+      <a class="a1 bounce" href=""><i class="fa-solid fa-phone "></i></a>
+      <a class="a2 bounce" href=""> <i class="fa-brands fa-whatsapp "></i></a>
+      <a class="a3 bounce" href=""><i class="fa-solid fa-envelope "></i></a>   
+ </div>
+
+    <!-- About section -->
+    <section>
+      <div
+        class="container w-full py-5 mx-auto flex sm:flex-row flex-col text-center"
+      >
+      <div class="about-text p-2" style="margin-left: 25px" data-aos="fade-up">
+        <h2 class="text-4xl font-bold m-2">About Us</h2>
+        <p class="p-5 text-xl">
+          Our product embodies exceptional quality, designed to meet and
+          exceed customer expectations with precision and durability. Built
+          with premium materials and rigorous testing, it delivers reliable
+          performance and innovative features. We’re committed to providing
+          excellence, ensuring each product enhances customer satisfaction and
+          reinforces trust in our brand.
+        </p>
+        <button
+          class="bg-sky-500 rounded-full border border-black p-3 text-xl hover:bg-red-500"
+        >
+          Read More
+        </button>
+      </div>
+        <div class="about-img pb-5" data-aos="fade-up">
+          <img
+            src="https://stat.overdrive.in/wp-content/uploads/2016/02/Composite-Auto-Budget-2016-SUVs.jpg"
+            alt=""
+            class="w-full rounded p-2"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- new Collection Section -->
+    <section>
+      <h1 class="text-4xl text-center m-5 font-bold">NEW COLLECTION</h1>
+      <div>
+        <div class="flex justify-center items-center flex-wrap">
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="zoom-in">
+            <img
+              src="https://imgd.aeplcdn.com/370x208/n/cw/ec/141867/nexon-exterior-right-front-three-quarter-71.jpeg?isig=0&q=80"
+              alt=""
+              srcset=""
+              class="h-48 rounded"
+            />
+            <p class="text-2xl font-bold p-1">NEXON</p>
+            <p class="text-2xl font-bold p-1">Price : Rs 555000.00</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="zoom-in">
+            <img
+              src="https://cdn.inventoryrsc.com/292061342_652b310641295f725afd466d.jpg"
+              alt=""
+              srcset=""
+              class="h-48 rounded"
+            />
+            <p class="text-2xl font-bold p-1">MERCEDES</p>
+            <p class="text-2xl font-bold p-1">Price : Rs 555000.00</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="zoom-in">
+            <img
+              src="https://imgd.aeplcdn.com/600x337/n/cw/ec/153319/range-rover-velar-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80"
+              alt=""
+              srcset=""
+              class="h-48 rounded"
+            />
+            <p class="text-2xl font-bold p-1">VITARA BREZZA</p>
+            <p class="text-2xl font-bold p-1">Price : Rs 555000.00</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="zoom-in">
+            <img
+              src="https://www.mbusa.com/content/dam/mb-nafta/us/myco/my24/eqb-class/all-vehicles/2025-EQB250-SUV-AVP-DR.png"
+              alt=""
+              srcset=""
+              class="h-48 rounded"
+            />
+            <p class="text-2xl font-bold p-1">WAGNOR</p>
+            <p class="text-2xl font-bold p-1">Price : Rs 555000.00</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-center items-center flex-wrap">
+          <div class="card h-96 w-80 rounded m-2 p-2 text-center" data-aos="zoom-in">
+            <img
+              src="https://imgd.aeplcdn.com/370x208/n/cw/ec/156405/xuv-3xo-exterior-right-front-three-quarter-33.jpeg?isig=0&q=80"
+              alt=""
+              srcset=""
+              class="h-48 rounded"
+            />
+            <p class="text-2xl font-bold p-1">MAHINDRA XUV</p>
+            <p class="text-2xl font-bold p-1">Price : Rs 555000.00</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+
+          <div class="card h-96 w-80 rounded m-2 p-2 text-center" data-aos="zoom-in">
+            <img
+              src="https://media.zigcdn.com/media/model/2025/Aug/tata-curvv-ev_360x240.jpg"
+              alt=""
+              srcset=""
+              class="h-48 rounded"
+            />
+            <p class="text-2xl font-bold p-1">TATA CRUVV</p>
+            <p class="text-2xl font-bold p-1">Price : Rs 555000.00</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-2 border text-center" data-aos="zoom-in">
+            <img
+              src="https://imgd.aeplcdn.com/310x174/n/cw/ec/149123/nexon-ev-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80"
+              alt=""
+              srcset=""
+              class="h-48 rounded"
+            />
+            <p class="text-2xl font-bold p-1">NEXON EV</p>
+            <p class="text-2xl font-bold p-1">Price : Rs 555000.00</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-2 text-center" data-aos="zoom-in">
+            <img
+              src="https://imgd-ct.aeplcdn.com/1056x660/n/rmahhcb_1709371.jpg?q=80"
+              alt=""
+              srcset=""
+              class="h-48 rounded"
+            />
+            <p class="text-2xl font-bold p-1">PUNCH EV</p>
+            <p class="text-2xl font-bold p-1">Price : Rs 555000.00</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="m-2 p-2 text-4xl text-center font-bold">MISSON VISSION</h2>
+      <div
+        class="mission-vission flex flex-wrap justify-around w-full bg-slate-200 overflow-hidden"
+      >
+        <div class="mission h-96 w-96 m-2 p-2 bg-white" data-aos="fade-up"
+        data-aos-duration="3000">
+          <h1 class="text-4xl font-bold text-center m-5">MISSION</h1>
+          <p class="p-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            repellat eveniet neque nesciunt minus tempore ab architecto vitae
+            quod voluptate voluptates at cum, recusandae error nihil sint eaque
+            placeat quam reiciendis? Culpa nihil, qui, nobis nulla odio illum
+            expedita beatae ex, voluptatum ipsam maiores aliquid molestias
+            recusandae ducimus. Quaerat, facilis?
+          </p>
+        </div>
+
+        <div class="h-96 w-96 m-2 p-2 flex items-center" data-aos="flip-left">
+          <img
+            src="https://freepngimg.com/save/15615-mission-free-png-image/356x269"
+            alt=""
+            class="h-96 w-96 rounded"
+          />
+        </div>
+
+        <div class="vission h-96 w-96 m-2 p-2 bg-white" data-aos="fade-up"
+        data-aos-duration="3000">
+          <h2 class="text-4xl font-bold text-center m-5">VISSION</h2>
+          <p class="p-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            repellat eveniet neque nesciunt minus tempore ab architecto vitae
+            quod voluptate voluptates at cum, recusandae error nihil sint eaque
+            placeat quam reiciendis? Culpa nihil, qui, nobis nulla odio illum
+            expedita beatae ex, voluptatum ipsam maiores aliquid molestias
+            recusandae ducimus. Quaerat, facilis?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1 class="text-4xl text-center m-5 font-bold">Products</h1>
+      <div>
+        <div class="flex justify-evenly items-center flex-wrap">
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center"data-aos="flip-left">
+            <img
+              src="https://media.istockphoto.com/id/1218853970/photo/cylinder-head-combustion-engine.jpg?s=612x612&w=0&k=20&c=q-gXgjl2B6c0Lwl3C_suUyM2Gl5r3JwWzX9CAhAA22w="
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-1">Cylinder heads</p>
+            <p class="text-2xl font-bold p-1">Rs. 5599</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="flip-left">
+            <img
+              src="https://www.matfoundrygroup.com/res/Camshaft%201200x350.jpg"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-1">camshafts</p>
+            <p class="text-2xl font-bold p-1">Rs. 3000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="flip-left">
+            <img
+              src="https://w7.pngwing.com/pngs/621/30/png-transparent-car-light-proton-waja-proton-wira-ignition-system-car-electrical-wires-cable-car-transport.png"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-1">Electrical System</p>
+            <p class="text-2xl font-bold p-1">Rs. 15000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="flip-left">
+            <img
+              src="https://5.imimg.com/data5/SELLER/Default/2022/2/MZ/AW/RX/101209222/tata-car-clutch-plate-500x500.jpeg"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-1">Clutch plates</p>
+            <p class="text-2xl font-bold p-1">Rs 3000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-evenly items-center flex-wrap">
+          <div class="card h-96 w-80 rounded m-2 p-2 text-center" data-aos="flip-left">
+            <img
+              src="https://www.speedyapollo.ca/wp-content/uploads/2023/07/Shock-absorbers.jpg"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-2">Shock absorbers</p>
+            <p class="text-2xl font-bold p-1">Rs 3000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+
+          <div class="card h-96 w-80 rounded m-2 p-2 text-center" data-aos="flip-left">
+            <img
+              src="https://cdn11.bigcommerce.com/s-z9vhe3o238/images/stencil/1280x1280/products/65380/5351996/482__81617.1687897124.jpg?c=1"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-2">Throttle body</p>
+            <p class="text-2xl font-bold p-1">Rs. 9000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-2 border text-center" data-aos="flip-left">
+            <img
+              src="https://images-cdn.ubuy.co.in/6352134734cf2a75cd4aa045-akkon-for-09-18-doul-led-for-dodge-ram.jpg"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-2">Tail lights</p>
+            <p class="text-2xl font-bold p-1">Rs. 5000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-2 text-center" data-aos="flip-left">
+            <img
+              src="https://5.imimg.com/data5/SELLER/Default/2022/9/OX/CT/DF/92181164/cross-bar-2-png-black-500x500.png"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-2">Roof racks</p>
+            <p class="text-2xl font-bold p-1">Rs. 3000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="m-5">
+        <h2 class="text-4xl font-bold text-center">Services</h2>
+      </div>
+      <div class="flex justify-center items-center flex-wrap">
+        <div
+          class="card  service-card w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;"data-aos="zoom-in-up"
+        >
+          <!-- <h2  class="text-4xl text-center font-bold pt-5">Our Services</h2> -->
+          <img
+            class="pt-8 bounce"
+            src="https://media.istockphoto.com/id/477042452/photo/3d-man-with-our-Services-sign-board.jpg?s=612x612&w=0&k=20&c=1jZJvr0-NqHas7715eO6U3QRG714dEleBvJ_tZeouYM="
+            alt=""
+          />
+
+          <p class="text-center p-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos
+            commodi deserunt nobis fuga animi debitis tenetur, minus recusandae
+            adipisci incidunt officiis.
+          </p>
+          <script
+            src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"
+          ></script>
+          <script
+            src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"
+          ></script>
+
+          <dotlottie-player
+            src="https://lottie.host/6e5c76f9-9af4-485e-a7ed-f529a4f10457/76WxcmSYpL.json"
+            background="transparent"
+            speed="2"
+            style="
+              width: 100px;
+              height: 100px;
+              margin-left: 100px;
+              cursor: pointer;
+            "
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+        <div
+          class="card w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="zoom-in-up"
+        >
+          <img
+            src="https://miro.medium.com/v2/resize:fit:4320/1*JktzC9GrA_l4yz0cCy8a5Q.jpeg"
+            alt=""
+            srcset=""
+            class="h-48 rounded w-full"
+          />
+          <h2 class="text-2xl text-center font-bold pt-2">REPAIRING</h2>
+          <p class="text-center p-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos
+            commodi deserunt nobis fuga animi debitis tenetur, minus recusandae
+            adipisci incidunt officiis maiores ut quisquam at qui saepe
+            reiciendis nam aut omnis illum laudantium eaque repudiandae
+            voluptatem. Vitae, libero ab?
+          </p>
+          <button class="p-2 bg-sky-500 rounded-full ml-28 m-2">
+            <a href="#"> Read more</a>
+          </button>
+        </div>
+        <div
+          class="card w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="zoom-in-up"
+        >
+          <img
+            src="https://t3.ftcdn.net/jpg/06/88/11/10/360_F_688111011_0XuX4z5DgCgLnJ8wjhIDoVlh6YXRCKC8.jpg"
+            alt=""
+            srcset=""
+            class="h-48 rounded w-full"
+          />
+          <h2 class="text-2xl text-center font-bold pt-2">DANTING PAINTING</h2>
+          <p class="text-center p-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos
+            commodi deserunt nobis fuga animi debitis tenetur, minus recusandae
+            adipisci incidunt officiis maiores ut quisquam at qui saepe
+            reiciendis nam aut omnis illum laudantium eaque repudiandae
+            voluptatem. Vitae, libero ab?
+          </p>
+          <button class="p-2 bg-sky-500 rounded-full ml-28 m-2">
+            <a href="#"> Read more</a>
+          </button>
+        </div>
+        <div
+          class="card w-80 rounded m-2 p-1 border border-black hover:box-shadow: 1px 1px 10px 2px black;" data-aos="zoom-in-up"
+        >
+          <img
+            src="https://img.freepik.com/free-photo/man-washing-his-car-garage_1157-26046.jpg"
+            alt=""
+            srcset=""
+            class="h-48 rounded w-full"
+          />
+          <h2 class="text-2xl text-center font-bold pt-2">WASHING</h2>
+          <p class="text-center p-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos
+            commodi deserunt nobis fuga animi debitis tenetur, minus recusandae
+            adipisci incidunt officiis maiores ut quisquam at qui saepe
+            reiciendis nam aut omnis illum laudantium eaque repudiandae
+            voluptatem. Vitae, libero ab?
+          </p>
+          <button class="p-2 bg-sky-500 rounded-full ml-28 m-2">
+            <a href="#"> Read more</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- Swiper -->
+      <div class="swiper_body" data-aos="zoom-in-up">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://platform.cstatic-images.com/in/v2/stock_photos/b0a52b41-0262-44c8-b790-c45233f8de84/68b9f3f7-ca9c-4e7d-8c76-8403d766fb4a.png"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati dignissimos neque modi assumenda iusto excepturi
+                quibusdam soluta quos. Tempore, veritatis.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/112947/wagon-r-2022-exterior-front-view.jpeg?isig=0&q=80"
+              />
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+              inventore libero nemo molestias facilis totam ea sequi quidem eum
+              itaque!
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://www.nicepng.com/png/detail/258-2589270_new-maruti-suzuki-swift-in-pearl-arctic-white.png"
+              />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+              possimus expedita voluptatem ratione cum corporis voluptate magnam
+              iusto assumenda nisi doloribus, repellat similique velit nam totam
+              tempora necessitatibus ipsa voluptatibus!
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://www.pngkey.com/png/detail/252-2526326_maruti-suzuki-vitara-brezza-02-vitara-brezza-black.png"
+              />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              ducimus consectetur quam alias itaque aut atque sequi suscipit,
+              provident distinctio?
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd-ct.aeplcdn.com/370x231/n/cw/ec/182723/altroz-right-front-three-quarter-2.jpeg?isig=0&q=80"
+              />
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium maxime animi, dicta mollitia, deserunt ut perspiciatis
+              quibusdam reprehenderit excepturi sapiente laudantium facilis,
+              natus qui nihil?
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://parkplus-bkt-img.parkplus.io/Toyota_Urban_Cruiser_Hyryder_b672e5998e.webp"
+              />
+              Lorem ipsum dolor sit amet, consectetur adipisicin vel minima,
+              omnis sapiente fugiat sunt commodi distinctio laudantium minus
+              esse quis quod ipsa excepturi aspernatur corrupti ratione.
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd-ct.aeplcdn.com/664x415/n/7y87bab_1649261.jpg?q=80"
+              />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              magnam ab alias delectus laboriosam excepturi, nisi debitis minus
+              facere aspernatur hic aut, exercitationem aliquam architecto.
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd.aeplcdn.com/664x374/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-66.jpeg?isig=0&q=80"
+              />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              eius suscipit consectetur nihil, perferendis earum, non rerum
+              veritatis tempora qui recusandae doloremque commodi maxime
+              dolorum?
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/31883/scorpio-exterior-left-front-three-quarter.jpeg?q=80"
+              />
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+              voluptas enim corrupti repellat, delectus architecto provident
+              aperiam, dicta sapiente amet, voluptates earum tempora dolore
+              odio.
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="client">
+        <h2 class="flex justify-center items-center text-4xl font-bold p-4">
+          Our Clients
+        </h2>
+        <div class="container flex flex-wrap justify-center">
+          <div class="card-box text-center" data-aos="flip-left">
+            <img
+              src="https://img.freepik.com/premium-photo/portrait-young-handsome-bearded-indian-man-park-outdoors_251136-72356.jpg?semt=ais_hybrid"
+              alt=""
+            />
+            <h1 class="text-xl font-bold p-2">Pardeep Kumar</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+            aut nemo dolor qui facere. Tempora!
+          </div>
+          <div class="card-box text-center" data-aos="flip-left">
+            <img
+              src="https://media.istockphoto.com/id/1136413215/photo/young-man-at-street-market.jpg?s=612x612&w=0&k=20&c=obnaR5III0jRxHKd4ZPl3LRC2pI792KbHYR2eBzKKe8="
+              alt=""
+            />
+            <h1 class="text-xl font-bold p-2">Pardeep Kumar</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+            aut nemo dolor qui facere. Tempora!
+          </div>
+          <div class="card-box text-center" data-aos="flip-left">
+            <img
+              src="https://media.istockphoto.com/id/628330148/photo/portrait-of-a-beautifull-smiling-man.jpg?s=612x612&w=0&k=20&c=3HlVTzZA4mFWonZtxu7xCYamgLxcb8zE3YMU9AGYXAc="
+              alt=""
+            />
+            <h1 class="text-xl font-bold p-2">Pardeep Kumar</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+            aut nemo dolor qui facere. Tempora!
+          </div>
+          <div class="card-box text-center" data-aos="flip-left">
+            <img
+              src="https://media.istockphoto.com/id/613557584/photo/portrait-of-a-beautifull-smiling-man.jpg?s=612x612&w=0&k=20&c=hkCg5CrmTKOApePbPOyo1U9GexEfIJOJqoLXJIvcN8E="
+              alt=""
+            />
+            <h1 class="text-xl font-bold p-2">Pardeep Kumar</h1>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+            aut nemo dolor qui facere. Tempora!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-100 py-12 px-4 md:px-0">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+        <!-- Contact Form -->
+        <div class="bg-white shadow-lg rounded-lg p-8" data-aos="zoom-in-up">
+          <h2
+            class="text-3xl font-semibold text-gray-800 mb-6 text-center md:text-left"
+          >
+            Get in Touch
+          </h2>
+          <form action="#" method="POST">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label
+                  for="name"
+                  class="block text-sm font-medium text-gray-700"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="mt-1 p-3 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                />
+              </div>
+              <div>
+                <label
+                  for="email"
+                  class="block text-sm font-medium text-gray-700"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="mt-1 p-3 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                />
+              </div>
+            </div>
+
+            <div class="mt-6">
+              <label
+                for="message"
+                class="block text-sm font-medium text-gray-700"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                class="mt-1 p-3 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+              ></textarea>
+            </div>
+
+            <div class="mt-8 text-center md:text-left">
+              <button
+                type="submit"
+                class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-md shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="flex flex-col justify-center text-gray-800" data-aos="zoom-in-up">
+          <div class="text-center md:text-left mb-8">
+            <h3 class="text-2xl font-semibold">Reach Out to Us</h3>
+            <p class="mt-4 text-gray-600">
+              If you'd like to connect directly, feel free to use the contact
+              information below.
+            </p>
+          </div>
+          <div class="space-y-4 text-center md:text-left">
+            <p class="font-medium text-lg">
+              <span class="text-gray-600">Phone:</span> +91 8630382804
+            </p>
+            <p class="font-medium text-lg">
+              <span class="text-gray-600">Email:</span> mohin745691@gmail.com
+            </p>
+            <p class="font-medium text-lg">
+              <span class="text-gray-600">Address:</span> 1234 Example St,
+              meerut, India
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-slate-400 dark:bg-gray-900 mt-12">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="./index.html" class="flex items-center">
+              <img
+                src="./images/logo image.jpg"
+                class="h-16 w-24 me-3"
+                alt=""
+              />
+              <span
+                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                >Singh Car Showroom</span
+              >
+            </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2
+                class="mb-6 text-md font-bold text-gray-900 uppercase dark:text-white"
+              >
+                Links
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:underline"
+                    >Products</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2
+                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              >
+                Contact
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a
+                    href="#"
+                    class="hover:underline"
+                    >+91 8630382804</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:underline"
+                    >surajsingh7k@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2
+                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              >
+                Legal
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span
+            class="text-xl text-black text-center sm:text-center dark:text-gray-400"
+            >© 2025
+           All Rights Reserved, Developed By
+            <span class="font-bold">Suraj Singh</span>
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0 justify-center">
+            <a
+              href="#"
+              class="text-red-700 hover:text-gray-900 dark:hover:text-white text-4xl"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a
+              href="#"
+              class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="#"
+              class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 1500, // Delay between slides in milliseconds
+          disableOnInteraction: false, // Continue autoplay after user interaction
+        },
+        loop: true, // Enables continuous loop
+      });
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+   AOS.init({
+      Duration: 1000,
+      offset: 200,
+      delay: 100,
+    });
+</script>
+  </body>
+</html>

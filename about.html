@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- talwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawsome code  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- aos cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="navbar">
+        <nav>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()">
+              <a href=""
+                ><i class="fa-solid fa-xmark" style="margin-top: 20px"></i
+              ></a>
+            </li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./Services.html">Servics</a></li>
+            <li><a href="./Products.html">Product</a></li>
+            <li><a href="./contact.html">contact</a></li>
+          </ul>
+
+          <ul class="nav-items shadow-2xl">
+            <li><img src="./images/logo image.jpg"class="h-16 w-32 rounded-full" alt="" /></li>
+            <li class="hideOnMobile"><a href="./index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="./about.html">About</a></li>
+            <li class="hideOnMobile"><a href="./Services.html">Services</a></li>
+            <li class="hideOnMobile"><a href="./Products.html">Product</a></li>
+            <li class="hideOnMobile"><a href="./contact.html">Contact</a></li>
+            <li class="menu-button" onclick="showSisebar()">
+              <a href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    </div>
+
+    <div class=" hero_text bounce text-red-600 p-2 text-4xl font-bold" >
+     About US
+  </div>
+
+  <div class="animated-icon ">
+    <a class="a1 bounce" href=""><i class="fa-solid fa-phone "></i></a>
+    <a class="a2 bounce" href=""> <i class="fa-brands fa-whatsapp "></i></a>
+    <a class="a3 bounce" href=""><i class="fa-solid fa-envelope "></i></a>   
+</div>
+
+
+    <!-- About section -->
+    <section>
+      <div
+        class="container w-full py-5 mx-5 mx-auto flex sm:flex-row flex-col text-center"
+      >
+      <div class="about-text p-2" style="margin-left: 25px" data-aos="fade-up">
+        <h2 class="text-4xl font-bold m-2">About Us</h2>
+        <p class="p-5 text-xl">
+          Our product embodies exceptional quality, designed to meet and
+          exceed customer expectations with precision and durability. Built
+          with premium materials and rigorous testing, it delivers reliable
+          performance and innovative features. We’re committed to providing
+          excellence, ensuring each product enhances customer satisfaction and
+          reinforces trust in our brand.
+        </p>
+        <button
+          class="bg-sky-500 rounded-full border border-black p-3 text-xl hover:bg-red-500"
+        >
+          Read More
+        </button>
+      </div>
+        <div class="about-img pb-5" data-aos="flip-right">
+          <img src="https://stat.overdrive.in/wp-content/uploads/2016/02/Composite-Auto-Budget-2016-SUVs.jpg" alt="" class="w-full rounded p-2" />
+        </div>
+      </div>
+    </section>
+
+
+ <section>
+    <!-- Swiper -->
+    <div class="swiper_body" data-aos="zoom-in">
+      <h2 class=" flex items-center justify-center p-5 font-bold text-4xl "> Our Team </h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://images.pexels.com/photos/1208015/pexels-photo-1208015.jpeg?cs=srgb&dl=pexels--rahulshah--1208015.jpg&fm=jpg" />
+            <div class="text-center p-3">
+              <h2 class="text-2xl">Amit kumar </h2>
+              <p>Machenic</p>
+              <button class="bg-red-900 p-2 rounded-full">Read More </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.pexels.com/photos/899357/pexels-photo-899357.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+            <div class="text-center p-3">
+              <h2 class="text-2xl">Dleep Bharti </h2>
+              <p>Machenic</p>
+              <button class="bg-red-900 p-2 rounded-full">Read More </button>
+            </div>
+            </div>
+          <div class="swiper-slide">
+            <img src="https://media.istockphoto.com/id/1292644184/photo/smiling-young-man-outdoors-in-the-city.jpg?s=612x612&w=0&k=20&c=XOW0uqH_Bb56lyIKxO2dtynjSXfG126El5Z2SinghcpjvI=" />
+            <div class="text-center p-3">
+              <h2 class="text-2xl">Parmod Yadav </h2>
+              <p>Machenic</p>
+              <button class="bg-red-900 p-2 rounded-full">Read More </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://media.istockphoto.com/id/499907722/photo/portrait-of-a-beautifull-smiling-man.jpg?s=612x612&w=0&k=20&c=hY8vXBfdJPJcZwhnEi-I59PAofMeBnRlpldsK2ozSNw=" />
+            <div class="text-center p-3">
+              <h2 class="text-2xl">Vakil Ahmad </h2>
+              <p>Machenic</p>
+              <button class="bg-red-900 p-2 rounded-full">Read More </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://img.freepik.com/premium-photo/man-wearing-orange-sweater-with-his-arms-crossed_862994-605876.jpg?semt=ais_hybrid" />
+            <div class="text-center p-3">
+              <h2 class="text-2xl"> Monu Singh</h2>
+              <p>Machenic</p>
+              <button class="bg-red-900 p-2 rounded-full">Read More </button>
+            </div>
+            </div>
+          <div class="swiper-slide">
+            <img src="https://img.freepik.com/premium-photo/portrait-young-indian-man_380164-258483.jpg" />
+            <div class="text-center p-3">
+              <h2 class="text-2xl">Kuldeep</h2>
+              <p>Manager</p>
+              <button class="bg-red-900 p-2 rounded-full">Read More </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://img.freepik.com/premium-photo/studio-portrait-handsome-senior-man_251136-93826.jpg" />
+            <div class="text-center p-3">
+              <h2 class="text-2xl">Naveen Kumar </h2>
+              <p>Owner</p>
+              <button class="bg-red-900 p-2 rounded-full">Read More </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://p1.pxfuel.com/preview/979/283/752/rishi-gangoly-man-indian-professional-male-thinking-royalty-free-thumbnail.jpg" />
+            <div class="text-center p-3">
+              <h2 class="text-2xl"> Yogesh </h2>
+              <p>Director Manager</p>
+              <button class="bg-red-900 p-2 rounded-full">Read More </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="https://img.freepik.com/premium-photo/portrait-young-business-indian-man-working-with-laptop-office_1218270-414.jpg" />
+            <div class="text-center p-3">
+              <h2 class="text-2xl"> Yogesh </h2>
+              <p>Director Manager</p>
+              <button class="bg-red-900 p-2 rounded-full">Read More </button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination">   </div>
+      </div>
+    </div>
+ </section>
+ <section>
+  <div class="client">
+    <h2 class="flex justify-center items-center text-4xl font-bold p-4">Our Clients</h2>
+    <div class="container flex flex-wrap justify-center ">
+      <div class="card-box text-center " data-aos="zoom-in">
+        <img src="https://img.freepik.com/premium-photo/portrait-young-handsome-bearded-indian-man-park-outdoors_251136-72356.jpg?semt=ais_hybrid" alt="">
+        <h1 class="text-xl font-bold p-2"> Pardeep Kumar</h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aut nemo dolor qui facere. Tempora!
+      </div>
+      <div class="card-box text-center " data-aos="zoom-in">
+        <img src="https://media.istockphoto.com/id/1136413215/photo/young-man-at-street-market.jpg?s=612x612&w=0&k=20&c=obnaR5III0jRxHKd4ZPl3LRC2pI792KbHYR2eBzKKe8=" alt="">
+        <h1 class="text-xl font-bold p-2"> Pardeep Kumar</h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aut nemo dolor qui facere. Tempora!
+      </div>
+      <div class="card-box text-center " data-aos="zoom-in">
+        <img src="https://media.istockphoto.com/id/628330148/photo/portrait-of-a-beautifull-smiling-man.jpg?s=612x612&w=0&k=20&c=3HlVTzZA4mFWonZtxu7xCYamgLxcb8zE3YMU9AGYXAc=" alt="">
+        <h1 class="text-xl font-bold p-2"> Pardeep Kumar</h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aut nemo dolor qui facere. Tempora!
+      </div>
+      <div class="card-box text-center " data-aos="zoom-in">
+        <img src="https://media.istockphoto.com/id/613557584/photo/portrait-of-a-beautifull-smiling-man.jpg?s=612x612&w=0&k=20&c=hkCg5CrmTKOApePbPOyo1U9GexEfIJOJqoLXJIvcN8E=" alt="">
+        <h1 class="text-xl font-bold p-2"> Pardeep Kumar</h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aut nemo dolor qui facere. Tempora!
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+
+<footer class="bg-slate-400 dark:bg-gray-900 mt-12">
+  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+            <a href="./index.html" class="flex items-center">
+                <img src="./images/logo image.jpg" class="h-16 w-24 me-3" alt="" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Singh Car Showroom</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+                <h2 class="mb-6 text-md font-bold text-gray-900 uppercase dark:text-white">Links</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Products</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline ">+91 8630382804</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">surajsingh7k@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-xl text-black text-center sm:text-center dark:text-gray-400">© 2025 All Rights Reserved, Developed By <span class="font-bold">Suraj Singh</span> 
+        </span>
+        <div class="flex mt-4 sm:justify-center sm:mt-0 justify-center">
+            <a href="#" class="text-red-700 hover:text-gray-900 dark:hover:text-white text-4xl">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl">
+                
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#" class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl">
+               
+              <i class="fa-brands fa-instagram"></i>
+            </a> 
+            <a href="#" class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl">
+               
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            
+        </div>
+    </div>
+  </div>
+</footer>
+
+
+   <script src="main.js"></script>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      autoplay: {
+        delay: 1500, // Delay between slides in milliseconds
+        disableOnInteraction: false, // Continue autoplay after user interaction
+      },
+      loop: true, // Enables continuous loop
+    });
+  </script>
+
+  <!-- aos js cdn link -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+     AOS.init({
+        Duration: 1000,
+        offset: 200,
+        delay: 100,
+      });
+  </script>
+</body>
+</html>

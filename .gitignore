@@ -1,0 +1,25 @@
+# Ignore node modules (if using npm)
+node_modules/
+
+# Ignore log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Build output (if using tools like webpack, dist folders, etc.)
+dist/
+build/
+
+# Environment files (if any)
+.env
+.env.local
+.env.*.local
+
+# Cache files
+.cache/
+

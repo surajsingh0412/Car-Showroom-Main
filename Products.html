@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- talwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawsome code  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+     <!-- aos cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="navbar">
+        <nav>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()">
+              <a href=""
+                ><i class="fa-solid fa-xmark" style="margin-top: 20px"></i
+              ></a>
+            </li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./Services.html">Servics</a></li>
+            <li><a href="./Products.html">Product</a></li>
+
+            <li><a href="./contact.html">contact</a></li>
+          </ul>
+
+          <ul class="nav-items shadow-2xl">
+            <li>
+              <img src="./images/logo image.jpg" class="h-16 w-32 rounded-full" alt="" />
+            </li>
+            <li class="hideOnMobile"><a href="./index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="./about.html">About</a></li>
+            <li class="hideOnMobile"><a href="./Services.html">Services</a></li>
+            <li class="hideOnMobile"><a href="./Products.html">Product</a></li>
+            <li class="hideOnMobile"><a href="./contact.html">Contact</a></li>
+            <li class="menu-button" onclick="showSisebar()">
+              <a href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#ffffff"
+                >
+                  <path
+                    d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <div class="hero_text bounce text-red-600 p-2 text-4xl font-bold">
+      Our Products
+    </div>
+
+    <div class="animated-icon ">
+      <a class="a1 bounce" href=""><i class="fa-solid fa-phone "></i></a>
+      <a class="a2 bounce" href=""> <i class="fa-brands fa-whatsapp "></i></a>
+      <a class="a3 bounce" href=""><i class="fa-solid fa-envelope "></i></a>   
+ </div>
+
+
+    <!-- About section -->
+    <section>
+      <div
+        class="container w-full py-5 mx-auto flex sm:flex-row flex-col text-center"
+      >
+        <div class="about-text p-2" style="margin-left: 25px" data-aos="zoom-in">
+          <h2 class="text-4xl font-bold m-2">our Product</h2>
+          <p class="p-5 text-xl">
+            Our product embodies exceptional quality, designed to meet and
+            exceed customer expectations with precision and durability. Built
+            with premium materials and rigorous testing, it delivers reliable
+            performance and innovative features. We’re committed to providing
+            excellence, ensuring each product enhances customer satisfaction and
+            reinforces trust in our brand.
+          </p>
+          <button
+            class="bg-sky-500 rounded-full border border-black p-3 text-xl hover:bg-red-500"
+          >
+            Read More
+          </button>
+        </div>
+        <div class="about-img pb-5" data-aos="zoom-in">
+          <img
+            src="https://www.autogorilla.com/blog/wp-content/uploads/2025/01/Revving-Up-Style-Crafting-Quality-Car-Accessories-for-Every-Drive-with-AutoGorilla.jpg"
+            alt=""
+            class="w-full rounded p-2"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- new Collection Section -->
+    <section>
+      <h1 class="text-4xl text-center m-5 font-bold">Products</h1>
+      <div>
+        <div class="flex justify-evenly items-center flex-wrap" >
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="flip-left">
+            <img
+              src="https://media.istockphoto.com/id/1218853970/photo/cylinder-head-combustion-engine.jpg?s=612x612&w=0&k=20&c=q-gXgjl2B6c0Lwl3C_suUyM2Gl5r3JwWzX9CAhAA22w="
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-1">Cylinder heads</p>
+            <p class="text-2xl font-bold p-1">Rs. 5599</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="flip-right">
+            <img
+              src="https://www.matfoundrygroup.com/res/Camshaft%201200x350.jpg"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-1">camshafts</p>
+            <p class="text-2xl font-bold p-1">Rs. 3000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="flip-left">
+            <img
+              src="https://w7.pngwing.com/pngs/621/30/png-transparent-car-light-proton-waja-proton-wira-ignition-system-car-electrical-wires-cable-car-transport.png"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-1">Electrical System</p>
+            <p class="text-2xl font-bold p-1">Rs. 15000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-1 text-center" data-aos="flip-right">
+            <img
+              src="https://5.imimg.com/data5/SELLER/Default/2022/2/MZ/AW/RX/101209222/tata-car-clutch-plate-500x500.jpeg"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-1">Clutch plates</p>
+            <p class="text-2xl font-bold p-1">Rs 3000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-evenly items-center flex-wrap">
+          <div class="card h-96 w-80 rounded m-2 p-2 text-center" data-aos="flip-left">
+            <img
+              src="https://www.speedyapollo.ca/wp-content/uploads/2023/07/Shock-absorbers.jpg"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-2">Shock absorbers</p>
+            <p class="text-2xl font-bold p-1">Rs 3000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+
+          <div class="card h-96 w-80 rounded m-2 p-2 text-center" data-aos="flip-right">
+            <img
+              src="https://cdn11.bigcommerce.com/s-z9vhe3o238/images/stencil/1280x1280/products/65380/5351996/482__81617.1687897124.jpg?c=1"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-2">Throttle body</p>
+            <p class="text-2xl font-bold p-1">Rs. 9000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-2 border text-center" data-aos="flip-right">
+            <img
+              src="https://images-cdn.ubuy.co.in/6352134734cf2a75cd4aa045-akkon-for-09-18-doul-led-for-dodge-ram.jpg"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-2">Tail lights</p>
+            <p class="text-2xl font-bold p-1">Rs. 5000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="card h-96 w-80 rounded m-2 p-2 text-center" data-aos="flip-left">
+            <img
+              src="https://5.imimg.com/data5/SELLER/Default/2022/9/OX/CT/DF/92181164/cross-bar-2-png-black-500x500.png"
+              alt=""
+              srcset=""
+              class="h-48 w-full rounded"
+            />
+            <p class="text-2xl font-bold p-2">Roof racks</p>
+            <p class="text-2xl font-bold p-1">Rs. 3000</p>
+            <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p>
+            <button
+              class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <div>
+          <h1 class="text-4xl font-bold text-center m-3">SPARE PARTS</h1>
+        </div>
+        <div>
+          <div class="flex justify-evenly items-center flex-wrap">
+            <div class="card h-96 w-80 rounded m-4 p-1" data-aos="flip-left">
+              <img
+                src="https://m.media-amazon.com/images/I/71ZpbvFksjL._AC_UF1000,1000_QL80_.jpg"
+                alt=""
+                srcset=""
+                class="h-48 w-full rounded"
+              />
+              <p class="text-2xl font-bold p-1">Fuses and relays</p>
+              <div class="flex text-2xl">
+                <p class="text-2xl">Rating :</p>
+                <span style="color: yellow"
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                ></span>
+                <span style="color: rgb(206, 203, 203)"
+                  ><i class="fa-solid fa-star p-1"></i
+                ></span>
+              </div>
+              <p class="text-2xl p-1">Price : Rs 500</p>
+              <!-- <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur </p> -->
+              <button
+                class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+              >
+                Read More
+              </button>
+            </div>
+
+            <div class="card h-96 w-76 rounded m-2 p-1" data-aos="flip-right">
+              <img
+                src="https://media.istockphoto.com/id/533208427/photo/blank-modern-car-infomration-display.jpg?s=612x612&w=0&k=20&c=ZdOIkWnSLprOUKpymaBzF9dCY1T0mOFlNM0M2zeUp3Y="
+                alt=""
+                srcset=""
+                class="h-48 w-full rounded"
+              />
+              <p class="text-2xl font-bold p-1">Dashboard display</p>
+              <div class="flex text-2xl">
+                <p class="text-2xl">Rating :</p>
+                <span style="color: yellow"
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i
+                ></span>
+                <span style="color: rgb(206, 203, 203)">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star p-1"></i
+                ></span>
+              </div>
+              <p class="text-2xl p-1">Price : Rs 5000</p>
+
+              <!-- <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p> -->
+              <button
+                class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+              >
+                Read More
+              </button>
+            </div>
+            <div class="card h-96 w-80 rounded m-2 p-1" data-aos="flip-left">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Automobile_radiator.jpg"
+                alt=""
+                srcset=""
+                class="h-48 w-full rounded"
+              />
+              <p class="text-2xl font-bold p-1">Radiator</p>
+              <div class="flex text-2xl">
+                <p class="text-2xl">Rating :</p>
+                <span style="color: yellow"
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                ></span>
+                <span style="color: rgb(206, 203, 203)"
+                  ><i class="fa-solid fa-star p-1"></i
+                ></span>
+              </div>
+              <p class="text-2xl p-1">Price : Rs 4000</p>
+              <!-- <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur </p> -->
+              <button
+                class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+              >
+                Read More
+              </button>
+            </div>
+            <div class="card h-96 w-80 rounded m-2 p-1" data-aos="flip-right">
+              <img
+                src="https://m.media-amazon.com/images/I/619hHGOBQ-L.jpg"
+                alt=""
+                srcset=""
+                class="h-48 w-full rounded"
+              />
+              <p class="text-2xl font-bold p-1">Cooling fan</p>
+              <div class="flex text-2xl">
+                <p class="text-2xl">Rating :</p>
+                <span style="color: yellow"
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                ></span>
+                <span style="color: rgb(206, 203, 203)"
+                  ><i class="fa-solid fa-star p-1"></i
+                ></span>
+              </div>
+              <p class="text-2xl p-1">Price : Rs 9000</p>
+              <!-- <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p> -->
+              <button
+                class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-evenly items-center flex-wrap">
+            <div class="card h-96 w-80 rounded m-2 p-1" data-aos="flip-left">
+              <img
+                src="https://media.istockphoto.com/id/530585232/photo/exhaust-manifold-solated-on-white-background-3d.jpg?s=612x612&w=0&k=20&c=_UUzR3iZNXOvZ-sDYHGuIPUIeZ3wIqbFSuwbx95eJe0="
+                alt=""
+                srcset=""
+                class="h-48 w-full rounded"
+              />
+              <p class="text-2xl font-bold p-1">Exhaust manifold</p>
+              <div class="flex text-2xl">
+                <p class="text-2xl">Rating :</p>
+                <span style="color: yellow"
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                ></span>
+                <span style="color: rgb(206, 203, 203)"
+                  ><i class="fa-solid fa-star p-1"></i
+                ></span>
+              </div>
+              <p class="text-2xl p-1">Price : Rs 999</p>
+              <!-- <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur </p> -->
+
+              <button
+                class="p-1 m-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+              >
+                Read More
+              </button>
+            </div>
+
+            <div class="card h-96 w-80 rounded m-2 p-1" data-aos="flip-right">
+              <img
+                src="https://www.automaniac.org/resources/images/article/32_timing_belt_vs_chain.jpg"
+                alt=""
+                srcset=""
+                class="h-48 w-full rounded"
+              />
+              <p class="text-2xl font-bold p-1">Timing belt/chain</p>
+              <div class="flex text-2xl">
+                <p class="text-2xl">Rating :</p>
+                <span style="color: yellow"
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                ></span>
+                <span style="color: rgb(206, 203, 203)"
+                  ><i class="fa-solid fa-star p-1"></i
+                ></span>
+              </div>
+              <p class="text-2xl p-1">Price : Rs 2999</p>
+              <!-- <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p> -->
+              <button
+                class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+              >
+                Read More
+              </button>
+            </div>
+            <div class="card h-96 w-80 rounded m-2 p-1" data-aos="flip-left">
+              <img
+                src="https://media.istockphoto.com/id/490267829/photo/v6-engine-pistons-3d-image.jpg?s=612x612&w=0&k=20&c=-QVvExHKU7xyGd1KR2GC15wtXv-OS3TeZzlY6BtuViw="
+                srcset=""
+                class="h-48 w-full rounded"
+              />
+              <p class="text-2xl font-bold p-1">Pistons</p>
+              <div class="flex text-2xl">
+                <p class="text-2xl">Rating :</p>
+                <span style="color: yellow"
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+
+                  <i class="fa-solid fa-star"></i
+                ></span>
+                <span style="color: rgb(206, 203, 203)">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star p-1"></i
+                ></span>
+              </div>
+              <p class="text-2xl p-1">Price : Rs 10000</p>
+              <!-- <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur </p> -->
+              <button
+                class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+              >
+                Read More
+              </button>
+            </div>
+            <div
+              class="card h-96 w-80 rounded m-2 p-1 hover:box-shadow: 1px 1px 10px 2px black;" data-aos="flip-right"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/41z8vg41OGL._AC_UF894,1000_QL80_.jpg"
+                alt=""
+                srcset=""
+                class="h-48 w-full rounded"
+              />
+              <p class="text-2xl font-bold p-1">Spark plugs</p>
+              <div class="flex text-2xl">
+                <p class="text-2xl">Rating :</p>
+                <span style="color: yellow"
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                ></span>
+                <span style="color: rgb(206, 203, 203)"
+                  ><i class="fa-solid fa-star p-1"></i
+                ></span>
+              </div>
+              <p class="text-2xl p-1">Price : Rs 200</p>
+              <!-- <p class="text-xl pl-2">Lorem ipsum dolor sit, amet consectetur</p> -->
+              <button
+                class="p-1 ml-2 bg-sky-500 border border-black rounded-full hover:bg-red-500"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- Swiper -->
+      <div class="swiper_body mt-4" data-aos="Zoom-in">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://platform.cstatic-images.com/in/v2/stock_photos/b0a52b41-0262-44c8-b790-c45233f8de84/68b9f3f7-ca9c-4e7d-8c76-8403d766fb4a.png"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati dignissimos neque modi assumenda iusto excepturi
+                quibusdam soluta quos. Tempore, veritatis.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/112947/wagon-r-2022-exterior-front-view.jpeg?isig=0&q=80"
+              />
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+              inventore libero nemo molestias facilis totam ea sequi quidem eum
+              itaque!
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://www.nicepng.com/png/detail/258-2589270_new-maruti-suzuki-swift-in-pearl-arctic-white.png"
+              />
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+              possimus expedita voluptatem ratione cum corporis voluptate magnam
+              iusto assumenda nisi doloribus, repellat similique velit nam totam
+              tempora necessitatibus ipsa voluptatibus!
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://www.pngkey.com/png/detail/252-2526326_maruti-suzuki-vitara-brezza-02-vitara-brezza-black.png"
+              />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              ducimus consectetur quam alias itaque aut atque sequi suscipit,
+              provident distinctio?
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd-ct.aeplcdn.com/370x231/n/cw/ec/182723/altroz-right-front-three-quarter-2.jpeg?isig=0&q=80"
+              />
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium maxime animi, dicta mollitia, deserunt ut perspiciatis
+              quibusdam reprehenderit excepturi sapiente laudantium facilis,
+              natus qui nihil?
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://parkplus-bkt-img.parkplus.io/Toyota_Urban_Cruiser_Hyryder_b672e5998e.webp"
+              />
+              Lorem ipsum dolor sit amet, consectetur adipisicin vel minima,
+              omnis sapiente fugiat sunt commodi distinctio laudantium minus
+              esse quis quod ipsa excepturi aspernatur corrupti ratione.
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd-ct.aeplcdn.com/664x415/n/7y87bab_1649261.jpg?q=80"
+              />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              magnam ab alias delectus laboriosam excepturi, nisi debitis minus
+              facere aspernatur hic aut, exercitationem aliquam architecto.
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd.aeplcdn.com/664x374/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-66.jpeg?isig=0&q=80"
+              />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              eius suscipit consectetur nihil, perferendis earum, non rerum
+              veritatis tempora qui recusandae doloremque commodi maxime
+              dolorum?
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/31883/scorpio-exterior-left-front-three-quarter.jpeg?q=80"
+              />
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+              voluptas enim corrupti repellat, delectus architecto provident
+              aperiam, dicta sapiente amet, voluptates earum tempora dolore
+              odio.
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-100 py-12 px-4 md:px-0">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+        <!-- Contact Form -->
+        <div class="bg-white shadow-lg rounded-lg p-8" data-aos="fade-up">
+          <h2
+            class="text-3xl font-semibold text-gray-800 mb-6 text-center md:text-left"
+          >
+            Get in Touch
+          </h2>
+          <form action="#" method="POST">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label
+                  for="name"
+                  class="block text-sm font-medium text-gray-700"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="mt-1 p-3 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                />
+              </div>
+              <div>
+                <label
+                  for="email"
+                  class="block text-sm font-medium text-gray-700"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="mt-1 p-3 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+                />
+              </div>
+            </div>
+
+            <div class="mt-6">
+              <label
+                for="message"
+                class="block text-sm font-medium text-gray-700"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                class="mt-1 p-3 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
+              ></textarea>
+            </div>
+
+            <div class="mt-8 text-center md:text-left">
+              <button
+                type="submit"
+                class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-md shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="flex flex-col justify-center text-gray-800" data-aos="zoom-in">
+          <div class="text-center md:text-left mb-8">
+            <h3 class="text-2xl font-semibold">Reach Out to Us</h3>
+            <p class="mt-4 text-gray-600">
+              If you'd like to connect directly, feel free to use the contact
+              information below.
+            </p>
+          </div>
+          <div class="space-y-4 text-center md:text-left">
+            <p class="font-medium text-lg">
+              <span class="text-gray-600">Phone:</span> +123 456 7890
+            </p>
+            <p class="font-medium text-lg">
+              <span class="text-gray-600">Email:</span> contact@example.com
+            </p>
+            <p class="font-medium text-lg">
+              <span class="text-gray-600">Address:</span> 1234 Example St, City,
+              Country
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-slate-400 dark:bg-gray-900 mt-12">
+      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+            <a href="./index.html" class="flex items-center">
+              <img
+                src="./images/logo image.jpg"
+                class="h-16 w-24 me-3"
+                alt=""
+              />
+              <span
+                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >
+                Singh Car Showroom</span
+              >
+            </a>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2
+                class="mb-6 text-md font-bold text-gray-900 uppercase dark:text-white"
+              >
+                Links
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="./Services.html" class="hover:underline"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a href="./Products.html" class="hover:underline"
+                    >Products</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2
+                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              >
+                Contact
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a
+                    href=""
+                    class="hover:underline"
+                    >+91 8630382804</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="hover:underline"
+                    >surajsingh7k@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2
+                class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              >
+                Legal
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span
+            class="text-xl text-black text-center sm:text-center dark:text-gray-400"
+            >© 2025
+            <a href="" class="hover:underline"
+              ></a
+            >All Rights Reserved, Developed By
+            <span class="font-bold">Suraj Singh</span>
+          </span>
+          <div class="flex mt-4 sm:justify-center sm:mt-0 justify-center">
+            <a
+              href="#"
+              class="text-red-700 hover:text-gray-900 dark:hover:text-white text-4xl"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a
+              href="#"
+              class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="#"
+              class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="#"
+              class="text-red-700 hover:text-gray-900 dark:hover:text-white ms-5 text-4xl"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 1500, // Delay between slides in milliseconds
+          disableOnInteraction: false, // Continue autoplay after user interaction
+        },
+        loop: true, // Enables continuous loop
+      });
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+   AOS.init({
+      Duration: 1000,
+      offset: 200,
+      delay: 100,
+    });
+</script>
+  </body>
+</html>
